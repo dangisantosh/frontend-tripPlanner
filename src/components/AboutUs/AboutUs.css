@@ -1,0 +1,64 @@
+ .card {
+    text-align: center;
+    width: 600px;
+    object-fit: scale-down;
+    padding: 3px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+  }
+  
+  .card img {
+    width: 100%;
+    max-height: 600px;
+    border-radius: 8px;
+   
+  }
+  
+  .name_person {
+    font-size: 24px;
+
+    font-weight: 700;
+
+  }
+  
+  .about_person{
+    font-size: 20px;
+    color: #3802ca;
+    text-align: left;
+    font-weight: 700;
+   
+    
+  }
+
+ 
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=1380&t=st=1690741277~exp=1690741877~hmac=1ba828a8f1c693595692e69a8c98e5bc74c55a64758ef10e7a4f6020f6e623f0'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    height: 100vh; 
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; 
+  }
+  
+  

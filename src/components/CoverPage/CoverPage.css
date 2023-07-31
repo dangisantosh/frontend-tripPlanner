@@ -1,0 +1,85 @@
+
+.cover-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+
+  .wallpaper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=1380&t=st=1690741277~exp=1690741877~hmac=1ba828a8f1c693595692e69a8c98e5bc74c55a64758ef10e7a4f6020f6e623f0'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.85; 
+  }
+  
+
+  .about {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-weight: 800;
+    font-size: 25px;
+    color:rgba(113, 16, 16, 0.929);
+  }
+
+  .name{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 800;
+    font-size: 25px;
+    color:rgba(113, 16, 16, 0.929);
+  }
+  
+  .button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .button-container1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 350%;
+    color:rgb(3, 67, 28)
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight:"bolder";
+    background-color:inherit; 
+    color: #fff;
+    border: 2px solid inherit;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 100%;
+    color: rgb(2, 36, 100);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  button:hover {
+    background-color: #acdef099;
+    transform: translateY(-5px); 
+  }
+
+  @media screen and (max-width: 768px){
+    .button-container1 {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        /* transform: translate(-50%, -50%); */
+        font-size: 175%;
+      }
+  }
+
+  
